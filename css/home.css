@@ -1,0 +1,53 @@
+#header {
+    background-image: url("../img/headers/Gustavo_Fring.jpg");
+    background-size: 100vw;
+    background-repeat: no-repeat;
+}
+
+
+#animated_Sub {
+    opacity: 0;
+}
+
+.div_Container {
+    margin-top: 25vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center; 
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    #header {
+        background-image: url("../img/headers/Gustavo_Fring_R.jpg");
+    }
+
+
+    .div_Container {
+        margin-top: 15vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
+    }
+
+    .BL_Title {
+        font-size: 10vw;
+        margin-top: 13vw;
+    }
+    .BL_Text {
+        font-size: 3.5vw;
+    }
+    .square>button {
+        margin-top: 5vw;
+        width: 60%;
+        height: 6vw;
+        font-size: 3vw;
+    
+    }
+
+
+
+  }

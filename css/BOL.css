@@ -1,0 +1,74 @@
+
+
+#header {
+    background-image: url("../img/headers/Skyler_White.jpg");
+    background-size: 100vw;
+    background-repeat: no-repeat;
+}
+
+
+.square {
+    margin-top: 20vw;
+    margin-left: auto;
+    margin-right: auto;
+    color: #003249;
+    width: 70vw;
+    height: 60vw;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.information {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.item>h2 {
+   font-size: 2vw;
+}
+.item>p {
+font-size: 1vw;
+}
+
+
+
+.buttons{
+    width:max-content;
+}
+.button {
+    width: 20%;
+    height: 2vw;
+    font-size: 1vw;
+}
+
+
+.higher {
+    margin: 0;
+}
+.blauw {
+    background: #49A4AE;
+    color: white;
+}
+
+@media only screen and (max-width: 800px) {
+    #header {
+        background-image: url("../img/headers/Skyler_white_R.jpg");
+    }
+    .square {
+        margin-top: 45vw;
+        width: 98vw;
+     
+        height: 130vw;
+    }
+    .item>h2 {
+        font-size: 5vw;
+     }
+     .item>p {
+     font-size: 3vw;
+     }
+     .button {
+        width: 45%;
+        height: 5vw;
+        font-size: 2vw;
+    }
+
+}
